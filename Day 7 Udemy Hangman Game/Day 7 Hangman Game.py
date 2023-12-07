@@ -11,8 +11,8 @@ lives = 6
 
 #TODO-3 - Check if the letter the user guessed (guess) is one of the letters in the chosen_word.
 
-random_num = random.randint(0,2)
-word = word_list[random_num]
+word_list_length = len(word_list)
+random_num = random.randint(0, word_list_length)
 
 #just some code testing...
 
